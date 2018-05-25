@@ -71,7 +71,7 @@ about:
     \ of the pipeline will begin.\nAll necessary data will be downloaded, tools will run the different analysis and the final visualization will be created. This execution may take some time.\n\n## Results\n\
     \nAfter the execution has finished, the new directory will be created (**outdir** is the default name).\nIn the **data** folder you will be able to find the results for all the tools' analysis.\nIn\
     \ **results** you will find the tables of processed results used in the visualization.\nFinally, the visualization will be in the **plots** directory. It will look something like this:\n\n![Plot](https://bitbucket.org/hoffmanlab/segzoo/raw/default/plots/plot.png)\n\
-    \nThe y-axis are the labels of the segmentation for all the heatmaps.\n\n###Notes\n- The *mix* table (the second one to the left) has each column normalized so that the maximum and minimum values are\
+    \nThe y-axis are the labels of the segmentation for all the heatmaps.\n\n### Notes\n- The *mix* table (the second one to the left) has each column normalized so that the maximum and minimum values are\
     \ the limits of the heatmap. This applies to all but the GC content, which is normalized between 0.35 and 0.65. All this information will be displayed in the near future in a table.\n- The aggregation\
     \ tables are shown in the same order as specified in `gene_biotypes.py`, and can contain duplicates.\n- The aggregation results displayed are the percentage of aggregations in one component in comparison\
     \ to all the gene biotype, so notice that each row adds up to 100."
